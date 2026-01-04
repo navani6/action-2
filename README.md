@@ -15,4 +15,4 @@ jobs:
             - name: checkout repository
               uses: actions/checkout@v4
             - name: execute shell script
-              run: ./ascii-script.sh
+              run: ./.github/workflows/ascii-script.sh
